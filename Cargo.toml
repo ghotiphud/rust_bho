@@ -1,0 +1,26 @@
+[package]
+name = "rust_bho"
+version = "0.1.0"
+authors = ["Yale Cason <yale.cason@gmail.com>"]
+
+
+[lib]
+name = "rust_bho"
+crate-type = ["rlib", "cdylib"]
+
+[[bin]]
+name = "rust_bho_bin"
+path = "src/bin.rs"
+
+
+[features]
+default = []
+
+# #[cfg(feature = "rusty")]
+rusty = []
+
+
+[dependencies]
+winapi="*"
+user32-sys = "*"
+#libloading = "*"
