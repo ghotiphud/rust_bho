@@ -20,7 +20,7 @@ Windows Registry Editor Version 5.00
 "ThreadingModel"="Apartment"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{C1626E91-F628-4F69-94ED-4DB4564ECDF5}]
-@="com_test"
+@="rust_bho"
 "NoExplorer"="1"
 ```
 
